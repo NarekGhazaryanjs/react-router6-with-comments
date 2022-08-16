@@ -4,10 +4,12 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import News from './pages/News';
-// Routes to be able to use Route
-// Route for routing
-// Link works like a but it does not refresh the page, instead it works like spa (single page app)
+// Routes acts as a container/parent for all the individual routes that will be created in our app.
 
+// Route is used to create a single route. It takes in two attributes:
+
+// path, which specifies the URL path of the desired component. You can call this pathname whatever you want. Above, you'll notice that the first pathname is a backslash (/). Any component whose pathname is a backslash will get rendered first whenever the app loads for the first time. This implies that the Home component will be the first component to get rendered.
+// element, which specifies the component the route should render.
 const App = () => {
   return (
     <Wrapper>

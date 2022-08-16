@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
  }
+
+
+ header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-top: 1vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
